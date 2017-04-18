@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html ng-app="myApp">
+
+<head>
+
+  <title> My First Angularjs App</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+  <!-- <script type="text/javascript" src="angular.min.js"></script> -->
+
+
+</head>
+
+<body>
+
+    <div ng-controller="appController">
+
+
+        <p>{{firstName}}<p>
+        <p>{{lastName}}<p>
+
+        <a hre href="#" ng-click="setName('John', 'Doe')">Set Name</a>
+
+    </div>
+
+	<script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="controllers/mycontroller.js"></script>
+
+</body>
+
+</html>
