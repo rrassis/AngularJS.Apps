@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<Title>RRA</Title>
+<html ng-app='myApp'>
+
+	<head>
+		<title>AngularJS Dependency Injection</title>
+	</head>
+	
+	<body>
+
+		<div ng-controller="controllerA">
+			<h2>Application Message</h2>
+			{{message}}
+		</div>
+		<hr>
+		<div ng-controller="controllerB">
+			<h2>Module Message</h2>
+			{{message}}
+		</div>
+		<hr>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="./js/injector.js"></script>
+
+	</body>
+	
+</html>
